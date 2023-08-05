@@ -4,3 +4,4 @@
 !nvim
 !zshrc
 lazy-lock.json
+!.zshrc.local
