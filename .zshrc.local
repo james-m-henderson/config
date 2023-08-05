@@ -1,0 +1,7 @@
+export PATH=$PATH:~/local/lux/bin:~/Library/Python/2.7/bin:~/bin
+export DEBFULLNAME="James Henderson"
+export GIT_AUTHOR_NAME=$DEBFULLNAME
+export GIT_COMMITTER_NAME=$DEBFULLNAME
+export DEBEMAIL=jamehend@cisco.com
+export GIT_AUTHOR_EMAIL=$DEBEMAIL
+export GIT_COMMITTER_EMAIL=$DEBEMAIL
