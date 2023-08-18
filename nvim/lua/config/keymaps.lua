@@ -19,3 +19,4 @@ local function map(mode, lhs, rhs, opts)
 end
 
 --let g:copilot_no_tab_map = v:true
+map("n", "<M-r>", vim.lsp.buf.rename, { desc = "Rename symbol" })
