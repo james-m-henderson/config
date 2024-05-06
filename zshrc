@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/$USER/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -108,6 +108,7 @@ alias gdiff="git diff --no-index"
 SSH_ENV="$HOME/.ssh/agent-environment"
 alias vim="nvim"
 alias lg="lazygit"
+alias s="kitten ssh"
 
 function start_agent {
     echo "Initialising new SSH agent..."
