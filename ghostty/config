@@ -1,0 +1,4 @@
+#font-family = "Agave Nerd Font Mono"
+theme = "Jetbrains Darcula"
+clipboard-read = "allow"
+clipboard-write = "allow"
