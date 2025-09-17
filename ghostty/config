@@ -1,0 +1,5 @@
+#font-family = "Agave Nerd Font Mono"
+theme = "Jetbrains Darcula"
+clipboard-read = "allow"
+macos-option-as-alt = true
+clipboard-write = "allow"
