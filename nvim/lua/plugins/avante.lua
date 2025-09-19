@@ -20,7 +20,9 @@ return {
       ollama = {
         endpoint = "http://127.0.0.1:11434",
         model = "qwen2.5:14b-instruct", -- pick any local model you've pulled
-        temperature = 0.2,
+        extra_request_body = {
+          temperature = 0.2,
+        }
       },
       abacus2 = {
         __inherited_from = "openai",
@@ -30,7 +32,9 @@ return {
       },
       openai = {
         model = "gpt-5",
-        temperature = 1
+        extra_request_body = {
+          temperature = 1,
+        }
       },
     },
   },
